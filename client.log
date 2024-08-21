@@ -482,3 +482,191 @@
 2024-08-20 22:30:14,141 - INFO - Thread processando bloco de 358898 até 359121
 2024-08-20 22:30:14,859 - INFO - Chave privada encontrada por Teste: 0x5749f
 2024-08-20 22:30:14,867 - INFO - Processo interrompido, chave já encontrada por Teste
+2024-08-20 23:01:32,026 - INFO - Jhony conectado ao servidor, aguardando tarefas...
+2024-08-20 23:01:32,077 - INFO - Dividindo o bloco de 262144 até 264765 em 4 processos
+2024-08-20 23:01:32,226 - INFO - Processo processando bloco de 262799 até 263454
+2024-08-20 23:01:32,226 - INFO - Processo processando bloco de 263454 até 264109
+2024-08-20 23:01:32,236 - INFO - Processo processando bloco de 264109 até 264765
+2024-08-20 23:01:32,236 - INFO - Processo processando bloco de 262144 até 262799
+2024-08-20 23:01:32,857 - INFO - Dividindo o bloco de 264765 até 267386 em 4 processos
+2024-08-20 23:01:33,006 - INFO - Processo processando bloco de 265420 até 266075
+2024-08-20 23:01:33,016 - INFO - Processo processando bloco de 266075 até 266730
+2024-08-20 23:01:33,016 - INFO - Processo processando bloco de 266730 até 267386
+2024-08-20 23:01:33,036 - INFO - Processo processando bloco de 264765 até 265420
+2024-08-20 23:01:33,617 - INFO - Dividindo o bloco de 267386 até 270007 em 4 processos
+2024-08-20 23:01:33,766 - INFO - Processo processando bloco de 268696 até 269351
+2024-08-20 23:01:33,776 - INFO - Processo processando bloco de 267386 até 268041
+2024-08-20 23:01:33,776 - INFO - Processo processando bloco de 269351 até 270007
+2024-08-20 23:01:33,776 - INFO - Processo processando bloco de 268041 até 268696
+2024-08-20 23:01:34,358 - INFO - Dividindo o bloco de 270007 até 272628 em 4 processos
+2024-08-20 23:01:34,506 - INFO - Processo processando bloco de 271972 até 272628
+2024-08-20 23:01:34,506 - INFO - Processo processando bloco de 271317 até 271972
+2024-08-20 23:01:34,516 - INFO - Processo processando bloco de 270007 até 270662
+2024-08-20 23:01:34,536 - INFO - Processo processando bloco de 270662 até 271317
+2024-08-20 23:01:35,117 - INFO - Dividindo o bloco de 272628 até 275249 em 4 processos
+2024-08-20 23:01:35,276 - INFO - Processo processando bloco de 274593 até 275249
+2024-08-20 23:01:35,276 - INFO - Processo processando bloco de 273283 até 273938
+2024-08-20 23:01:35,276 - INFO - Processo processando bloco de 273938 até 274593
+2024-08-20 23:01:35,277 - INFO - Processo processando bloco de 272628 até 273283
+2024-08-20 23:01:35,898 - INFO - Dividindo o bloco de 275249 até 277870 em 4 processos
+2024-08-20 23:01:36,046 - INFO - Processo processando bloco de 275249 até 275904
+2024-08-20 23:01:36,047 - INFO - Processo processando bloco de 277214 até 277870
+2024-08-20 23:01:36,047 - INFO - Processo processando bloco de 275904 até 276559
+2024-08-20 23:01:36,056 - INFO - Processo processando bloco de 276559 até 277214
+2024-08-20 23:01:36,647 - INFO - Dividindo o bloco de 277870 até 280491 em 4 processos
+2024-08-20 23:01:36,796 - INFO - Processo processando bloco de 277870 até 278525
+2024-08-20 23:01:36,806 - INFO - Processo processando bloco de 279835 até 280491
+2024-08-20 23:01:36,806 - INFO - Processo processando bloco de 279180 até 279835
+2024-08-20 23:01:36,806 - INFO - Processo processando bloco de 278525 até 279180
+2024-08-20 23:01:37,397 - INFO - Dividindo o bloco de 280491 até 283112 em 4 processos
+2024-08-20 23:01:37,556 - INFO - Processo processando bloco de 281146 até 281801
+2024-08-20 23:01:37,556 - INFO - Processo processando bloco de 281801 até 282456
+2024-08-20 23:01:37,557 - INFO - Processo processando bloco de 280491 até 281146
+2024-08-20 23:01:37,557 - INFO - Processo processando bloco de 282456 até 283112
+2024-08-20 23:01:38,187 - INFO - Dividindo o bloco de 283112 até 285733 em 4 processos
+2024-08-20 23:01:38,346 - INFO - Processo processando bloco de 284422 até 285077
+2024-08-20 23:01:38,346 - INFO - Processo processando bloco de 283767 até 284422
+2024-08-20 23:01:38,356 - INFO - Processo processando bloco de 285077 até 285733
+2024-08-20 23:01:38,366 - INFO - Processo processando bloco de 283112 até 283767
+2024-08-20 23:01:38,967 - INFO - Dividindo o bloco de 285733 até 288354 em 4 processos
+2024-08-20 23:01:39,126 - INFO - Processo processando bloco de 287043 até 287698
+2024-08-20 23:01:39,136 - INFO - Processo processando bloco de 285733 até 286388
+2024-08-20 23:01:39,136 - INFO - Processo processando bloco de 287698 até 288354
+2024-08-20 23:01:39,136 - INFO - Processo processando bloco de 286388 até 287043
+2024-08-20 23:01:39,728 - INFO - Dividindo o bloco de 288354 até 290975 em 4 processos
+2024-08-20 23:01:39,876 - INFO - Processo processando bloco de 289009 até 289664
+2024-08-20 23:01:39,876 - INFO - Processo processando bloco de 290319 até 290975
+2024-08-20 23:01:39,886 - INFO - Processo processando bloco de 289664 até 290319
+2024-08-20 23:01:39,896 - INFO - Processo processando bloco de 288354 até 289009
+2024-08-20 23:01:40,468 - INFO - Dividindo o bloco de 290975 até 293596 em 4 processos
+2024-08-20 23:01:40,626 - INFO - Processo processando bloco de 292285 até 292940
+2024-08-20 23:01:40,626 - INFO - Processo processando bloco de 291630 até 292285
+2024-08-20 23:01:40,627 - INFO - Processo processando bloco de 290975 até 291630
+2024-08-20 23:01:40,627 - INFO - Processo processando bloco de 292940 até 293596
+2024-08-20 23:01:41,238 - INFO - Dividindo o bloco de 293596 até 296217 em 4 processos
+2024-08-20 23:01:41,396 - INFO - Processo processando bloco de 293596 até 294251
+2024-08-20 23:01:41,397 - INFO - Processo processando bloco de 295561 até 296217
+2024-08-20 23:01:41,397 - INFO - Processo processando bloco de 294251 até 294906
+2024-08-20 23:01:41,406 - INFO - Processo processando bloco de 294906 até 295561
+2024-08-20 23:01:42,018 - INFO - Dividindo o bloco de 296217 até 298838 em 4 processos
+2024-08-20 23:01:42,166 - INFO - Processo processando bloco de 296872 até 297527
+2024-08-20 23:01:42,176 - INFO - Processo processando bloco de 297527 até 298182
+2024-08-20 23:01:42,176 - INFO - Processo processando bloco de 298182 até 298838
+2024-08-20 23:01:42,186 - INFO - Processo processando bloco de 296217 até 296872
+2024-08-20 23:01:42,768 - INFO - Dividindo o bloco de 298838 até 301459 em 4 processos
+2024-08-20 23:01:42,916 - INFO - Processo processando bloco de 298838 até 299493
+2024-08-20 23:01:42,916 - INFO - Processo processando bloco de 300148 até 300803
+2024-08-20 23:01:42,917 - INFO - Processo processando bloco de 299493 até 300148
+2024-08-20 23:01:42,917 - INFO - Processo processando bloco de 300803 até 301459
+2024-08-20 23:01:43,497 - INFO - Dividindo o bloco de 301459 até 304080 em 4 processos
+2024-08-20 23:01:43,646 - INFO - Processo processando bloco de 301459 até 302114
+2024-08-20 23:01:43,656 - INFO - Processo processando bloco de 303424 até 304080
+2024-08-20 23:01:43,666 - INFO - Processo processando bloco de 302114 até 302769
+2024-08-20 23:01:43,666 - INFO - Processo processando bloco de 302769 até 303424
+2024-08-20 23:01:44,257 - INFO - Dividindo o bloco de 304080 até 306701 em 4 processos
+2024-08-20 23:01:44,417 - INFO - Processo processando bloco de 304735 até 305390
+2024-08-20 23:01:44,417 - INFO - Processo processando bloco de 304080 até 304735
+2024-08-20 23:01:44,417 - INFO - Processo processando bloco de 306045 até 306701
+2024-08-20 23:01:44,417 - INFO - Processo processando bloco de 305390 até 306045
+2024-08-20 23:01:45,038 - INFO - Dividindo o bloco de 306701 até 309322 em 4 processos
+2024-08-20 23:01:45,186 - INFO - Processo processando bloco de 308666 até 309322
+2024-08-20 23:01:45,196 - INFO - Processo processando bloco de 308011 até 308666
+2024-08-20 23:01:45,196 - INFO - Processo processando bloco de 306701 até 307356
+2024-08-20 23:01:45,206 - INFO - Processo processando bloco de 307356 até 308011
+2024-08-20 23:01:45,788 - INFO - Dividindo o bloco de 309322 até 311943 em 4 processos
+2024-08-20 23:01:45,946 - INFO - Processo processando bloco de 309977 até 310632
+2024-08-20 23:01:45,946 - INFO - Processo processando bloco de 309322 até 309977
+2024-08-20 23:01:45,956 - INFO - Processo processando bloco de 310632 até 311287
+2024-08-20 23:01:45,956 - INFO - Processo processando bloco de 311287 até 311943
+2024-08-20 23:01:46,567 - INFO - Dividindo o bloco de 311943 até 314564 em 4 processos
+2024-08-20 23:01:46,726 - INFO - Processo processando bloco de 313908 até 314564
+2024-08-20 23:01:46,726 - INFO - Processo processando bloco de 313253 até 313908
+2024-08-20 23:01:46,727 - INFO - Processo processando bloco de 312598 até 313253
+2024-08-20 23:01:46,746 - INFO - Processo processando bloco de 311943 até 312598
+2024-08-20 23:01:47,338 - INFO - Dividindo o bloco de 314564 até 317185 em 4 processos
+2024-08-20 23:01:47,486 - INFO - Processo processando bloco de 315874 até 316529
+2024-08-20 23:01:47,486 - INFO - Processo processando bloco de 314564 até 315219
+2024-08-20 23:01:47,496 - INFO - Processo processando bloco de 316529 até 317185
+2024-08-20 23:01:47,496 - INFO - Processo processando bloco de 315219 até 315874
+2024-08-20 23:01:48,108 - INFO - Dividindo o bloco de 317185 até 319806 em 4 processos
+2024-08-20 23:01:48,266 - INFO - Processo processando bloco de 319150 até 319806
+2024-08-20 23:01:48,276 - INFO - Processo processando bloco de 317185 até 317840
+2024-08-20 23:01:48,276 - INFO - Processo processando bloco de 317840 até 318495
+2024-08-20 23:01:48,276 - INFO - Processo processando bloco de 318495 até 319150
+2024-08-20 23:01:48,887 - INFO - Dividindo o bloco de 319806 até 322427 em 4 processos
+2024-08-20 23:01:49,046 - INFO - Processo processando bloco de 321116 até 321771
+2024-08-20 23:01:49,046 - INFO - Processo processando bloco de 321771 até 322427
+2024-08-20 23:01:49,046 - INFO - Processo processando bloco de 319806 até 320461
+2024-08-20 23:01:49,056 - INFO - Processo processando bloco de 320461 até 321116
+2024-08-20 23:01:49,627 - INFO - Dividindo o bloco de 322427 até 325048 em 4 processos
+2024-08-20 23:01:49,776 - INFO - Processo processando bloco de 323082 até 323737
+2024-08-20 23:01:49,776 - INFO - Processo processando bloco de 324392 até 325048
+2024-08-20 23:01:49,777 - INFO - Processo processando bloco de 322427 até 323082
+2024-08-20 23:01:49,786 - INFO - Processo processando bloco de 323737 até 324392
+2024-08-20 23:01:50,388 - INFO - Dividindo o bloco de 325048 até 327669 em 4 processos
+2024-08-20 23:01:50,536 - INFO - Processo processando bloco de 325703 até 326358
+2024-08-20 23:01:50,546 - INFO - Processo processando bloco de 327013 até 327669
+2024-08-20 23:01:50,546 - INFO - Processo processando bloco de 326358 até 327013
+2024-08-20 23:01:50,556 - INFO - Processo processando bloco de 325048 até 325703
+2024-08-20 23:01:51,157 - INFO - Dividindo o bloco de 327669 até 330290 em 4 processos
+2024-08-20 23:01:51,316 - INFO - Processo processando bloco de 327669 até 328324
+2024-08-20 23:01:51,316 - INFO - Processo processando bloco de 328324 até 328979
+2024-08-20 23:01:51,316 - INFO - Processo processando bloco de 328979 até 329634
+2024-08-20 23:01:51,326 - INFO - Processo processando bloco de 329634 até 330290
+2024-08-20 23:01:51,897 - INFO - Dividindo o bloco de 330290 até 332911 em 4 processos
+2024-08-20 23:01:52,056 - INFO - Processo processando bloco de 330290 até 330945
+2024-08-20 23:01:52,056 - INFO - Processo processando bloco de 331600 até 332255
+2024-08-20 23:01:52,056 - INFO - Processo processando bloco de 330945 até 331600
+2024-08-20 23:01:52,066 - INFO - Processo processando bloco de 332255 até 332911
+2024-08-20 23:01:52,638 - INFO - Dividindo o bloco de 332911 até 335532 em 4 processos
+2024-08-20 23:01:52,786 - INFO - Processo processando bloco de 332911 até 333566
+2024-08-20 23:01:52,786 - INFO - Processo processando bloco de 334221 até 334876
+2024-08-20 23:01:52,796 - INFO - Processo processando bloco de 334876 até 335532
+2024-08-20 23:01:52,796 - INFO - Processo processando bloco de 333566 até 334221
+2024-08-20 23:01:53,397 - INFO - Dividindo o bloco de 335532 até 338153 em 4 processos
+2024-08-20 23:01:53,556 - INFO - Processo processando bloco de 336187 até 336842
+2024-08-20 23:01:53,556 - INFO - Processo processando bloco de 336842 até 337497
+2024-08-20 23:01:53,566 - INFO - Processo processando bloco de 337497 até 338153
+2024-08-20 23:01:53,566 - INFO - Processo processando bloco de 335532 até 336187
+2024-08-20 23:01:54,128 - INFO - Dividindo o bloco de 338153 até 340774 em 4 processos
+2024-08-20 23:01:54,276 - INFO - Processo processando bloco de 339463 até 340118
+2024-08-20 23:01:54,286 - INFO - Processo processando bloco de 338153 até 338808
+2024-08-20 23:01:54,306 - INFO - Processo processando bloco de 338808 até 339463
+2024-08-20 23:01:54,306 - INFO - Processo processando bloco de 340118 até 340774
+2024-08-20 23:01:54,887 - INFO - Dividindo o bloco de 340774 até 343395 em 4 processos
+2024-08-20 23:01:55,046 - INFO - Processo processando bloco de 342084 até 342739
+2024-08-20 23:01:55,047 - INFO - Processo processando bloco de 342739 até 343395
+2024-08-20 23:01:55,047 - INFO - Processo processando bloco de 341429 até 342084
+2024-08-20 23:01:55,047 - INFO - Processo processando bloco de 340774 até 341429
+2024-08-20 23:01:55,667 - INFO - Dividindo o bloco de 343395 até 346016 em 4 processos
+2024-08-20 23:01:55,816 - INFO - Processo processando bloco de 343395 até 344050
+2024-08-20 23:01:55,846 - INFO - Processo processando bloco de 345360 até 346016
+2024-08-20 23:01:55,847 - INFO - Processo processando bloco de 344050 até 344705
+2024-08-20 23:01:55,847 - INFO - Processo processando bloco de 344705 até 345360
+2024-08-20 23:01:56,428 - INFO - Dividindo o bloco de 346016 até 348637 em 4 processos
+2024-08-20 23:01:56,586 - INFO - Processo processando bloco de 346016 até 346671
+2024-08-20 23:01:56,586 - INFO - Processo processando bloco de 346671 até 347326
+2024-08-20 23:01:56,587 - INFO - Processo processando bloco de 347981 até 348637
+2024-08-20 23:01:56,606 - INFO - Processo processando bloco de 347326 até 347981
+2024-08-20 23:01:57,187 - INFO - Dividindo o bloco de 348637 até 351258 em 4 processos
+2024-08-20 23:01:57,336 - INFO - Processo processando bloco de 349947 até 350602
+2024-08-20 23:01:57,356 - INFO - Processo processando bloco de 350602 até 351258
+2024-08-20 23:01:57,356 - INFO - Processo processando bloco de 349292 até 349947
+2024-08-20 23:01:57,357 - INFO - Processo processando bloco de 348637 até 349292
+2024-08-20 23:01:57,918 - INFO - Dividindo o bloco de 351258 até 353879 em 4 processos
+2024-08-20 23:01:58,066 - INFO - Processo processando bloco de 351913 até 352568
+2024-08-20 23:01:58,066 - INFO - Processo processando bloco de 353223 até 353879
+2024-08-20 23:01:58,076 - INFO - Processo processando bloco de 352568 até 353223
+2024-08-20 23:01:58,086 - INFO - Processo processando bloco de 351258 até 351913
+2024-08-20 23:01:58,678 - INFO - Dividindo o bloco de 353879 até 356500 em 4 processos
+2024-08-20 23:01:58,826 - INFO - Processo processando bloco de 355189 até 355844
+2024-08-20 23:01:58,827 - INFO - Processo processando bloco de 353879 até 354534
+2024-08-20 23:01:58,836 - INFO - Processo processando bloco de 354534 até 355189
+2024-08-20 23:01:58,846 - INFO - Processo processando bloco de 355844 até 356500
+2024-08-20 23:01:59,428 - INFO - Dividindo o bloco de 356500 até 359121 em 4 processos
+2024-08-20 23:01:59,576 - INFO - Processo processando bloco de 356500 até 357155
+2024-08-20 23:01:59,586 - INFO - Processo processando bloco de 357810 até 358465
+2024-08-20 23:01:59,586 - INFO - Processo processando bloco de 357155 até 357810
+2024-08-20 23:01:59,596 - INFO - Processo processando bloco de 358465 até 359121
+2024-08-20 23:01:59,825 - INFO - Chave privada encontrada por Jhony: 0x5749f
+2024-08-20 23:01:59,827 - INFO - Processo interrompido, chave já encontrada por Jhony

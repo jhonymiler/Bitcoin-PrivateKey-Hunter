@@ -1,6 +1,6 @@
 # Bitcoin-PrivateKey-Hunter
 
-Distributed system in Python for finding private keys of Bitcoin wallets. It uses multiprocessing and multithreading to divide and process key blocks in parallel, enabling efficient searches in distributed networks.
+Distributed system in Python for finding private keys of Bitcoin wallets. It uses multiprocessing to divide and process key blocks in parallel, enabling efficient searches in distributed networks.
 
 ## Requirements
 
@@ -47,7 +47,7 @@ Distributed system in Python for finding private keys of Bitcoin wallets. It use
 
 - **Server**: The server distributes key blocks to clients and listens on port `50000` for connections.
 - **Client**: Each client connects to the server, receives key blocks, and processes these blocks in parallel using threads. When a matching key is found, all other clients are notified, and processing stops.
-- **Multithreading**: The client divides the key block into subranges and processes each subrange in a separate thread.
+- **Multiprocessing**: The client divides the key block into subintervals and processes each subinterval in a separate process.
 
 ## File Structure
 

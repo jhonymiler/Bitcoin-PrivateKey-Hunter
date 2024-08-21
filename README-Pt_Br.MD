@@ -1,6 +1,6 @@
 # Bitcoin-PrivateKey-Hunter
 
-Sistema distribuído em Python para encontrar chaves privadas de carteiras Bitcoin. Utiliza multiprocessing e multithreading para dividir e processar blocos de chaves em paralelo, permitindo buscas eficientes em redes distribuídas.
+Sistema distribuído em Python para encontrar chaves privadas de carteiras Bitcoin. Utiliza multiprocessing para dividir e processar blocos de chaves em paralelo, permitindo buscas eficientes em redes distribuídas.
 
 ## Requisitos
 
@@ -47,7 +47,7 @@ Sistema distribuído em Python para encontrar chaves privadas de carteiras Bitco
 
 - **Servidor**: O servidor distribui blocos de chaves para os clientes e escuta a porta `50000` para conexões.
 - **Cliente**: Cada cliente se conecta ao servidor, recebe blocos de chaves e processa esses blocos em paralelo usando threads. Quando uma chave correspondente é encontrada, todos os outros clientes são notificados e o processamento para.
-- **Multithreading**: O cliente divide o bloco de chaves em subintervalos e processa cada subintervalo em uma thread separada.
+- **Multiprocessing**: O cliente divide o bloco de chaves em subintervalos e processa cada subintervalo em um processo separado.
 
 ## Estrutura dos Arquivos
 

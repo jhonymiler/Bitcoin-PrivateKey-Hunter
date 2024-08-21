@@ -1,11 +1,10 @@
 import queue
-from multiprocessing.managers import BaseManager
+from multiprocessing.managers import BaseManager  # Adicione essa linha
 from ecdsa import SECP256k1, ellipticcurve
 import hashlib
 import base58
 import logging
-from threading import Thread
-from multiprocessing import Manager
+from multiprocessing import Process, Manager
 
 # Configuração do logger
 logging.basicConfig(
@@ -45,15 +44,15 @@ def verify_private_key(private_key, x_pub, y_pub):
     Q = private_key * G
     return Q.x() == x_pub and (Q.y() == y_pub or Q.y() == curve.p() - y_pub)
 
-class QueueManager(BaseManager):
+class QueueManager(BaseManager):  
     pass
 
 QueueManager.register('get_task_queue')
 QueueManager.register('get_result_queue')
 QueueManager.register('get_found_flag')
 
-def worker_thread(start, end, found_flag, result_queue, client_name):
-    logging.info(f"Thread processando bloco de {start} até {end}")
+def worker_process(start, end, found_flag, result_queue, client_name):
+    logging.info(f"Processo processando bloco de {start} até {end}")
     for k in range(start, end):
         if not found_flag.empty():
             found_by = found_flag.get()
@@ -74,7 +73,7 @@ def worker_thread(start, end, found_flag, result_queue, client_name):
                 f.write(f"Private key: {hex(private_key)}, WIF: {wif}\n")
             return
 
-def client_work(server_ip, client_name, port=50000, authkey=b'abc', num_threads=12):
+def client_work(server_ip, client_name, port=50000, authkey=b'abc', num_processes=4):
     manager = QueueManager(address=(server_ip, port), authkey=authkey)
     manager.connect()
 
@@ -87,21 +86,21 @@ def client_work(server_ip, client_name, port=50000, authkey=b'abc', num_threads=
     while not task_queue.empty():
         try:
             start, end = task_queue.get(timeout=1)
-            logging.info(f"Dividindo o bloco de {start} até {end} em {num_threads} threads")
+            logging.info(f"Dividindo o bloco de {start} até {end} em {num_processes} processos")
 
-            # Divida o intervalo em subintervalos para multithreading
-            interval_size = (end - start) // num_threads
-            threads = []
+            # Divida o intervalo em subintervalos para multiprocessing
+            interval_size = (end - start) // num_processes
+            processes = []
 
-            for i in range(num_threads):
+            for i in range(num_processes):
                 sub_start = start + i * interval_size
-                sub_end = sub_start + interval_size if i < num_threads - 1 else end
-                thread = Thread(target=worker_thread, args=(sub_start, sub_end, found_flag, result_queue, client_name))
-                thread.start()
-                threads.append(thread)
+                sub_end = sub_start + interval_size if i < num_processes - 1 else end
+                process = Process(target=worker_process, args=(sub_start, sub_end, found_flag, result_queue, client_name))
+                process.start()
+                processes.append(process)
 
-            for thread in threads:
-                thread.join()
+            for process in processes:
+                process.join()
 
         except queue.Empty:
             logging.info("Nenhuma tarefa restante.")
